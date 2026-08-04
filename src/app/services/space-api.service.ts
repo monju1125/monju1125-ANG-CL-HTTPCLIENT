@@ -21,7 +21,7 @@ export class SpaceApiService {
    * The full URL would be https://api.spaceflightnewsapi.net/v3/reports.
    */
   getReportsAPI() : Observable<any>{
-    return this.httpClient.get("");
+    return this.httpClient.get("http://api.spaceflightnewsapi.net/v3/articles");
   }
 
   /**
